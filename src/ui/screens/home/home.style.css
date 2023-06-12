@@ -1,0 +1,250 @@
+.container {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    animation: bg 60s linear infinite;
+}
+
+.first-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #348cb2;
+}
+
+.first-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background: #348cb2 url(../../../assets/images/bg.jpg) bottom left;
+    background-repeat: repeat-x;
+    background-size: 1500px 100%;
+    background-position: 0 0, 1500px 0;
+    animation: bg 60s linear infinite;
+    z-index: -1;
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0 0, 1500px 0;
+    }
+    100% {
+        background-position: -1500px 0, 0 0;
+    }
+}
+
+.first-section h1 {
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    line-height: 150%;
+}
+
+.fs-h2 {
+    font-size: 30px;
+    opacity: 0.75;
+    padding-bottom: 2%;
+}
+
+@-moz-keyframes overlay {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes overlay {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes overlay {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes overlay {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.overlay {
+    -moz-animation: overlay 1.5s 1.5s forwards;
+    -webkit-animation: overlay 1.5s 1.5s forwards;
+    -ms-animation: overlay 1.5s 1.5s forwards;
+    animation: overlay 1.5s 1.5s forwards;
+    background-attachment: fixed, fixed;
+    background-image: url("../../../assets/images/overlay-pattern.png"), url("../../../assets/images/overlay.svg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.fs--contact-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.scroll-button {
+    position: absolute;
+    bottom: 20px;
+    height: 80px;
+    color: rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+    animation: bobbing 2s infinite ease-in-out alternate;
+    transition: transform 0.3s;
+}
+
+@keyframes bobbing {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100vh;
+    padding-top: 5%;
+}
+
+.second-section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.ss--project-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ts--container {
+    display: flex;
+    width: 100%;
+}
+
+.third-section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.ts--form-contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 5%;
+}
+
+.ts--form-contact-container input,
+.ts--form-contact-container textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+
+.ts--form-contact-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.ts--form-contact-container input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.ts--form-contact-container textarea {
+    resize: vertical;
+}
+
+.form-name-email {
+    display: flex;
+}
+
+.form-name-email input[type="text"] {
+    margin-right: 10px;
+}
+
+.ts--contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.final-contact-container {
+    display: flex;
+    width: 100%;
+}

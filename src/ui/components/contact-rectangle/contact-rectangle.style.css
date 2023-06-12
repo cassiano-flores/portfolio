@@ -1,0 +1,33 @@
+.contact-rectangle-container {
+    display: flex;
+    align-items: center;
+    padding: 4%;
+    width: 100%;
+}
+
+.contact-rectangle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 20%;
+    margin-right: 10px;
+}
+
+.contact-rectangle-icon svg {
+    color: #fff;
+    font-size: 150%;
+}
+
+.contact-rectangle-link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 4px;
+}
+
+.contact-rectangle-link a:hover {
+    color: #0056b3;
+}
