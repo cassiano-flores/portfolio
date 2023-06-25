@@ -59,22 +59,22 @@ export const PROJECTS = [
         url: "https://github.com/cassiano-flores/chess-java",
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        image: "chess-java.png",
         description: "Alternative WoW",
         url: "https://github.com/cassiano-flores/alternative-wow",
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        image: "chess-java.png",
         description: "Retroflix",
         url: "https://github.com/cassiano-flores/retroflix",
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        image: "chess-java.png",
         description: "Learn Invest",
         url: "https://github.com/cassiano-flores/learn-invest",
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        image: "chess-java.png",
         description: "New Orkut",
         url: "https://github.com/cassiano-flores/new-orkut",
     },
