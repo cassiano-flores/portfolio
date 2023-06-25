@@ -25,8 +25,9 @@
 
 .project-card img {
     width: 100%;
-    aspect-ratio: auto;
+    height: 200px;
     object-fit: cover;
+    object-position: center;
     border-radius: 8px;
 }
 

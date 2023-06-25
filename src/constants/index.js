@@ -39,22 +39,22 @@ export const DISPLAY_TEXT = {
 
 export const PROJECTS = [
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        image: "take-a-ride.png",
         description: "Take a Ride",
         url: "https://github.com/cassiano-flores/take-a-ride",
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        image: "lol-skins.png",
         description: "LOL Skins",
         url: "https://github.com/cassiano-flores/lol-skins",
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        image: "lorem-website.png",
         description: "Lorem Website",
         url: "https://github.com/cassiano-flores/lorem-website",
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+        image: "chess-java.png",
         description: "Chess Java",
         url: "https://github.com/cassiano-flores/chess-java",
     },
