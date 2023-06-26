@@ -59,22 +59,17 @@ export const PROJECTS = [
         url: "https://github.com/cassiano-flores/chess-java",
     },
     {
-        image: "chess-java.png",
-        description: "Alternative WoW",
-        url: "https://github.com/cassiano-flores/alternative-wow",
-    },
-    {
-        image: "chess-java.png",
+        image: "retroflix.png",
         description: "Retroflix",
         url: "https://github.com/cassiano-flores/retroflix",
     },
     {
-        image: "chess-java.png",
+        image: "learn-invest.png",
         description: "Learn Invest",
         url: "https://github.com/cassiano-flores/learn-invest",
     },
     {
-        image: "chess-java.png",
+        image: "new-orkut.png",
         description: "New Orkut",
         url: "https://github.com/cassiano-flores/new-orkut",
     },
