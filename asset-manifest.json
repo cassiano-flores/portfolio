@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e9420a6b.css",
-    "main.js": "/portfolio/static/js/main.e20e6ac6.js",
+    "main.css": "/portfolio/static/css/main.cb3ab363.css",
+    "main.js": "/portfolio/static/js/main.2570d760.js",
     "static/media/lorem-website.png": "/portfolio/static/media/lorem-website.91f47f7c7bd0c6615dda.png",
     "static/media/lol-skins.png": "/portfolio/static/media/lol-skins.6f2adf100b505b2e4dc9.png",
     "static/media/new-orkut.png": "/portfolio/static/media/new-orkut.ddf2cb870deee0e1a50b.png",
@@ -13,11 +13,11 @@
     "static/media/take-a-ride.png": "/portfolio/static/media/take-a-ride.765cac6d771bcd9690c2.png",
     "static/media/overlay.svg": "/portfolio/static/media/overlay.6f6384b63ea858c7acb8.svg",
     "index.html": "/portfolio/index.html",
-    "main.e9420a6b.css.map": "/portfolio/static/css/main.e9420a6b.css.map",
-    "main.e20e6ac6.js.map": "/portfolio/static/js/main.e20e6ac6.js.map"
+    "main.cb3ab363.css.map": "/portfolio/static/css/main.cb3ab363.css.map",
+    "main.2570d760.js.map": "/portfolio/static/js/main.2570d760.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9420a6b.css",
-    "static/js/main.e20e6ac6.js"
+    "static/css/main.cb3ab363.css",
+    "static/js/main.2570d760.js"
   ]
 }
