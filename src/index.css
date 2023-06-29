@@ -5,7 +5,8 @@
 }
 
 body {
-    background: #fff;
+    background: rgb(1, 1, 1);
+    background: linear-gradient(121deg, rgba(1, 1, 1, 1) 0%, rgba(6, 6, 8, 1) 100%);
     overflow-x: hidden;
 }
 
