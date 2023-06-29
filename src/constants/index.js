@@ -39,19 +39,9 @@ export const DISPLAY_TEXT = {
 
 export const PROJECTS = [
     {
-        image: "take-a-ride.png",
-        description: "Take a Ride",
-        url: "https://github.com/cassiano-flores/take-a-ride",
-    },
-    {
-        image: "lol-skins.png",
-        description: "LOL Skins",
-        url: "https://github.com/cassiano-flores/lol-skins",
-    },
-    {
-        image: "lorem-website.png",
-        description: "Lorem Website",
-        url: "https://github.com/cassiano-flores/lorem-website",
+        image: "learn-invest.png",
+        description: "Learn Invest",
+        url: "https://github.com/cassiano-flores/learn-invest",
     },
     {
         image: "chess-java.png",
@@ -59,19 +49,29 @@ export const PROJECTS = [
         url: "https://github.com/cassiano-flores/chess-java",
     },
     {
+        image: "lorem-website.png",
+        description: "Lorem Website",
+        url: "https://github.com/cassiano-flores/lorem-website",
+    },
+    {
+        image: "lol-skins.png",
+        description: "LOL Skins",
+        url: "https://github.com/cassiano-flores/lol-skins",
+    },
+    {
         image: "retroflix.png",
         description: "Retroflix",
         url: "https://github.com/cassiano-flores/retroflix",
     },
     {
-        image: "learn-invest.png",
-        description: "Learn Invest",
-        url: "https://github.com/cassiano-flores/learn-invest",
-    },
-    {
         image: "new-orkut.png",
         description: "New Orkut",
         url: "https://github.com/cassiano-flores/new-orkut",
+    },
+    {
+        image: "take-a-ride.png",
+        description: "Take a Ride",
+        url: "https://github.com/cassiano-flores/take-a-ride",
     },
 ];
 
