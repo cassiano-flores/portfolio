@@ -39,7 +39,9 @@ export function HomeScreen() {
                 {/* Welcome */}
                 <section className="first-section">
                     <div className="overlay"></div>
-                    <h1>Cassiano Flores</h1>
+                    <div className="name-field">
+                        <h1>Cassiano</h1> <h1> Flores</h1>
+                    </div>
 
                     <Typed
                         className="fs-h2"

@@ -56,4 +56,8 @@
     .project-card-container {
         width: 100%;
     }
+
+    .project-card img {
+        height: 330px;
+    }
 }
